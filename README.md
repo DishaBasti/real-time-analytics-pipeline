@@ -77,10 +77,9 @@ This approach simulates real-time metrics using **Prometheus exporter** when you
 ## ✅ Offline Analytics in Google Colab  
 Due to Spark setup constraints locally, detailed analytics were done in **Colab**:  
 
-- **Notebook 1:** [Data Preprocessing & Initial Analytics](https://colab.research.google.com/drive/19py9mZ519ugLVm_pTcXmVENYaKNPhIet?usp=sharing)  
-- **Notebook 2:** [Advanced Analytics & Visualizations](https://colab.research.google.com/drive/1t2X3r2MHtKUaQ4ilkXLT3vJh5Q8eIaTT?usp=sharing)  
+- **Notebook:** [Analytics & Visualizations](https://colab.research.google.com/drive/1t2X3r2MHtKUaQ4ilkXLT3vJh5Q8eIaTT?usp=sharing)  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19py9mZ519ugLVm_pTcXmVENYaKNPhIet?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1t2X3r2MHtKUaQ4ilkXLT3vJh5Q8eIaTT?usp=sharing)
 
 
 ## 📂 Folder Structure  
@@ -93,8 +92,7 @@ real-time-bda-pipeline/
  ┣ 📜 prometheus_simulator.py # Prometheus metrics exporter
  ┣ 📜 sample_data.csv         # Example dataset
  ┣ 📂 notebooks
- ┃   ┣ pyspark_analytics_1.ipynb
- ┃   ┗ pyspark_analytics_2.ipynb
+ ┃   ┣ pyspark_analytics.ipynb
  ┣ 📜 requirements.txt
  ┗ 📜 docker-compose.yml      # For Kafka + Zookeeper setup
 ```
@@ -152,8 +150,6 @@ python prometheus_simulator.py
 ✔ **Grafana Dashboard for Kafka Pipeline**  
 ✔ **Grafana Dashboard for Prometheus Simulation**  
 ✔ **Colab Visualizations**  
-
-*(Add screenshots in `images/` folder and reference here)*  
 
 
 ## 🔮 Future Enhancements  
