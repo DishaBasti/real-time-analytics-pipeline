@@ -35,7 +35,7 @@ Event_ID | Event_Type | User_ID | City | State | User_Type | Timestamp | Channel
 ```
 
 
-## 🏗 Architecture  
+## Architecture  
 
 ### ✅ Approach 1: Kafka + PySpark + Grafana  
 ![Kafka Pipeline Architecture](images/kafka_pipeline.png)
