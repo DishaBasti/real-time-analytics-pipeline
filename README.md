@@ -23,7 +23,7 @@ It also includes **offline PySpark analytics** in Google Colab for detailed insi
 
 
 ## 📌 Project Overview  
-The goal of this project is to **simulate real-time viewership data** from a CSV and analyze it using:  
+The goal of this project is to **simulate real-time TV channel viewership data** from a CSV and analyze it using:  
 - **Kafka** for distributed event streaming.  
 - **PySpark Structured Streaming** for real-time analytics.  
 - **Prometheus & Grafana** for monitoring and visualization.  
