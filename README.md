@@ -145,14 +145,17 @@ python prometheus_simulator.py
    - Add Prometheus as a data source.  
    - Build dashboards to visualize real-time metrics.  
 
-## 📸 Screenshots  
+## Screenshots  
 ✔ **Kafka Console Output** – Top Channels, Regional Trends  
 ✔ **Grafana Dashboard for Kafka Pipeline**  
 ✔ **Grafana Dashboard for Prometheus Simulation**  
 ✔ **Colab Visualizations**  
 
 
-## 🔮 Future Enhancements  
+## Future Enhancements  
 - Integrate **forecasting models** (Prophet, ARIMA) into PySpark streaming.  
 - Store real-time processed data in **InfluxDB** for time-series analytics.  
-- Deploy pipeline using **Kubernetes** for scalability.  
+- Deploy pipeline using **Kubernetes** for scalability.
+
+## Author 
+**Disha S Basti**
